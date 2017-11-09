@@ -10,7 +10,7 @@
     </div>
 
     <div class="columns is-multiline">
-      <div class="column is-one-third" v-for="report in reports" :key="report._id">
+      <div class="column is-one-third" v-for="report in reports" :key="report._id" v-if="report.overview">
         <card :item="report" :modal="openModal" :on-save="onSave" />
       </div>
        <!-- <div class="column is-12">

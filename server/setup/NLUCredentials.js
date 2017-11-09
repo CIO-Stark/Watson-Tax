@@ -7,8 +7,8 @@
         var credentials = setup;
 
     /*
-        if(process.env.VCAP){
-            var vcap = JSON.parse(process.env.VCAP);
+        if(process.env.VCAP_SERVICES){
+            var vcap = JSON.parse(process.env.VCAP_SERVICES);
             credentials = vcap["natural-language-understanding"][0].credentials;
         }
     */

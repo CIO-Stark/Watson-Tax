@@ -61,6 +61,14 @@ export default {
   cursor: pointer;
 }
 
+.card-footer.level .level-right .icon i {
+    font-size: 1.1rem;
+}
+
+.card-footer.level .level-left .category-tag {
+    font-size: 0.65rem;
+}
+
 .card-footer.level .level-right .icon:hover, .card-footer.level .level-right .icon.active-feed {
   color: #9659D0;
 }
